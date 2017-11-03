@@ -1,5 +1,6 @@
 package laboratorio5;
 
+/
 public class Cilindrica extends Tanque {
 	
 	protected double altura;
@@ -12,4 +13,10 @@ public class Cilindrica extends Tanque {
 		this.radio = radio;
 	}
 
+	public double Dimensiones()
+	{
+		double resultado;
+		resultado = (3.14)*radio*altura;
+		return resultado;
+	}
 }
